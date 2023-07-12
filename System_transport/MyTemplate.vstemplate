@@ -1,0 +1,50 @@
+<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>System_transport</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>System_transport</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="System_transport.csproj" File="System_transport.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="add_del.cs">add_del.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="add_del.Designer.cs">add_del.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="add_del.resx">add_del.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="centeral organization.cs">centeral organization.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="centeral organization.Designer.cs">centeral organization.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="centeral organization.resx">centeral organization.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="delete.cs">delete.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="delete.Designer.cs">delete.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="delete.resx">delete.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="drivers.cs">drivers.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="drivers.Designer.cs">drivers.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="drivers.resx">drivers.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.cs">Form1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.Designer.cs">Form1.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.resx">Form1.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form2.cs">Form2.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form2.Designer.cs">Form2.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form2.resx">Form2.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="students.cs">students.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="students.Designer.cs">students.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="students.resx">students.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="transport.sdf">transport.sdf</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
